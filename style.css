@@ -12,22 +12,20 @@ body{
     background-image: url(bgm.jpg);
     opacity: 1.5;
     z-index: 6;
-    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-@media (max-width: 500px)
-{
-    .body{
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
+
 .header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: rgba(16, 70, 77, 1);
+    background: #10464d;
     display: flex;
     align-items: center;
     justify-content: space-between;
